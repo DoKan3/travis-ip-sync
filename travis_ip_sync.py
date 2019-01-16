@@ -2,7 +2,7 @@ import boto3
 from botocore.exceptions import ClientError
 import dns.resolver
 
-SECURITY_GROUPS = ['sg-09c07274']
+SECURITY_GROUPS = [''] #Add list of AWS security groups
 
 
 def getTravisIps():
